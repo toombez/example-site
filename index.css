@@ -1,0 +1,87 @@
+:root {
+    --green: #75BF7A;
+    --gray: #9E9DA2;
+    --black: #000;
+    --light-gray: #F9F9F9;
+    --white: #FFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    background-color: var(--light-gray);
+}
+
+/*компановка элементов с добавление отступов и цвета*/
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    color: var(--black);
+    margin-top: 7.5rem;
+}
+
+.title__word-1 {
+    color: var(--green);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 1.5rem;
+}
+
+.container {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.card {
+    display: flex;
+    margin-right: 13.44rem;
+    gap: 7.5rem;
+    padding: 3rem 7.5rem;
+    border-radius: 1rem;
+    background-color: var(--white);
+}
+
+.two {
+    margin-left: 13.44rem;
+}
+
+.big-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/*ниже стилизация элементов container*/
+
+.container__pic {
+    font-size: 6rem;
+    font-weight: 500;
+    color: var(--green);
+}
+
+.container__subtitle {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.big-container__info {
+    font-size: 1.5rem;
+    color: var(--gray);
+}
+
+.Montserrat {
+    font-family: Montserrat;
+}
